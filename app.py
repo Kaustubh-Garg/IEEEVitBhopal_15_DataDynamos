@@ -5,7 +5,7 @@ import numpy as np
 import io
 
 app = Flask(__name__)
-model = load_model('model.keras')
+model = load_model('model_FINAL.keras')
 
 # Define a mapping from class indices to class names
 class_names = [
