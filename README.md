@@ -1,4 +1,4 @@
-**IEEEVitBhopal_15_DataDynamos**
+_**IEEEVitBhopal_15_DataDynamos**_
 
 ****PROJECT** **TITLE****:-
 
@@ -70,7 +70,7 @@ Text Processing: The symptom descriptions are tokenized, and relevant features a
 MatPlot is a plotting library used for visualizing data and results. It helps in creating plots and graphs that make it easier to understand the performance and outcomes of the machine learning model.
 
 **Installation**: MatPlot can be installed using pip
-Plotting Results: Visualizing model performance metrics such as accuracy and loss over training epochs.
+**Plotting Results**: Visualizing model performance metrics such as accuracy and loss over training epochs.
 
 
 **SETUP INSTRUCTION**:-
@@ -86,16 +86,16 @@ Using the application is simple and user-friendly. Farmers or users start by acc
 Our project aligns perfectly with the theme of sustainable farming through technological innovation. By leveraging cutting-edge AI/ML models for early disease detection, we provide farmers with the tools they need to minimize crop losses and optimize resource use. This alignment with sustainability and innovation is evident in several key aspects of our project:
 
 **1. Early Disease Detection:**
-Our AI/ML models are designed to detect plant diseases at an early stage. Early detection is crucial for preventing the spread of disease and reducing crop losses. By identifying issues before they become severe, farmers can take timely action, which not only saves crops but also reduces the need for extensive use of chemicals and pesticides. This approach supports sustainable farming by promoting healthier crops and reducing environmental impact.
+Our AI/ML models are designed to detect plant diseases at an early stage. Early detection is crucial for preventing the spread of disease and reducing crop losses. By identifying issues before they become severe, farmers can take timely action, which not only saves crops but also reduces the need for extensive use of chemicals and pesticides.
 
 **2. Resource Optimization:**
-Efficient use of resources is a cornerstone of sustainable farming. Our application helps farmers optimize the use of water, fertilizers, and pesticides by providing precise recommendations based on the detected diseases and symptoms. By tailoring these inputs to the specific needs of the crops, we help farmers avoid overuse and waste, leading to more efficient and environmentally friendly farming practices.
+Efficient use of resources is a cornerstone of sustainable farming. Our application helps farmers optimize the use of water, fertilizers, and pesticides by providing precise recommendations based on the detected diseases and symptoms. 
 
 **3. User-Friendly Interface:**
-The integration of a user-friendly graphical user interface (GUI) ensures that our technology is accessible and easy to use for farmers of all technical backgrounds. This ease of use promotes widespread adoption, enabling more farmers to benefit from our advanced disease detection and resource optimization tools. By making the technology approachable, we bridge the gap between complex AI models and practical farming needs.
+The integration of a user-friendly graphical user interface (GUI) ensures that our technology is accessible and easy to use for farmers of all technical backgrounds.
 
 **4. Sustainable Solutions:**
-Once a disease is detected, our application provides sustainable solutions and approaches to treat the affected plants. These solutions are designed to be environmentally friendly, minimizing harm to the ecosystem while effectively managing crop health. By focusing on sustainable practices, we underscore our commitment to long-term agricultural productivity and environmental stewardship.
+Once a disease is detected, our application provides sustainable solutions and approaches to treat the affected plants. These solutions are designed to be environmentally friendly, minimizing harm to the ecosystem while effectively managing crop health.
 
 **FUTURE ENHANCEMENTS**:-
 
@@ -103,11 +103,11 @@ Our project is poised for significant advancements through the integration of cu
 
 **Drone Technology Integration**:
 
-We plan to deploy drones equipped with advanced sensors and cameras for real-time aerial surveillance of crop fields. These drones will fly over the fields, capturing high-resolution images and videos to monitor crop health. By using sophisticated image processing algorithms, the drones can detect early signs of disease, pest infestations, and nutrient deficiencies with exceptional accuracy. This aerial perspective allows for comprehensive coverage and early intervention, enabling farmers to address issues before they escalate.
+We plan to deploy drones equipped with advanced sensors and cameras for real-time aerial surveillance of crop fields. These drones will fly over the fields, capturing high-resolution images and videos to monitor crop health. By using sophisticated image processing algorithms, the drones can detect early signs of disease, pest infestations, and nutrient deficiencies with exceptional accuracy.
 
 **Unmanned Vehicles for Ground-Level Analysis**:
 
-In addition to drones, we aim to utilize unmanned ground vehicles (UGVs) that can traverse the fields autonomously. These vehicles will be equipped with various sensors to collect soil samples, leaf samples, and other plant parts. The UGVs will conduct on-the-spot diagnostics, analyzing soil pH, moisture levels, and nutrient content. They will also scan for disease symptoms, sending data back to the central system for further analysis. This ground-level interaction complements the aerial data, providing a holistic view of the crop health.
+In addition to drones, we aim to utilize unmanned ground vehicles (UGVs) that can traverse the fields autonomously. These vehicles will be equipped with various sensors to collect soil samples, leaf samples, and other plant parts. The UGVs will conduct on-the-spot diagnostics, analyzing soil pH, moisture levels, and nutrient content.
 
 **Advanced Data Integration and Real-Time Alerts**:
 
