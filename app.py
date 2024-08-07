@@ -7,7 +7,6 @@ import io
 app = Flask(__name__)
 model = load_model('model_FINAL.keras')
 
-# Define a mapping from class indices to class names
 class_names = [
     'Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
     'Grape___Black_rot', 'Grape___Esca_(Black_Measles)', 'Grape___healthy', 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)',
@@ -18,9 +17,9 @@ class_names = [
 ]
 
 def preprocess_image(img):
-    img = img.resize((128, 128))  # Resize to model input size
+    img = img.resize((128, 128))
     img_array = np.array(img) / 255.0
-    img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
+    img_array = np.expand_dims(img_array, axis=0)
     return img_array
 
 @app.route('/')
@@ -37,23 +36,21 @@ def predict():
         return jsonify({'error': 'No selected file'}), 400
     
     try:
-        # Load and preprocess the image
-        img = image.load_img(io.BytesIO(file.read()))  # Read and load the image from the file object
+        img = image.load_img(io.BytesIO(file.read()))
         img_array = preprocess_image(img)
         
-        print("Preprocessed image array shape:", img_array.shape)  # Debugging line
+        print("Preprocessed image array shape:", img_array.shape)
         
         # Predict
         predictions = model.predict(img_array)
         
         print("Model predictions:", predictions)  # Debugging line
         
-        # Reshape predictions if necessary and extract class index
-        predictions = np.squeeze(predictions)  # Remove extra dimensions if present
+        predictions = np.squeeze(predictions)
         
         print("Reshaped predictions:", predictions)  # Debugging line
         
-        predicted_index = np.argmax(predictions)  # Get the index of the max value
+        predicted_index = np.argmax(predictions)
         predicted_class_name = class_names[predicted_index]  # Map index to class name
         
         print("Predicted class name:", predicted_class_name)  # Debugging line
