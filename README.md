@@ -15,18 +15,40 @@ Paurush Nimje (23BCG10084)
 
 **PROJECT DESCRIPTION**:-
 
+# Plant Disease Classification
+
+This repository contains code for a plant disease classification model using TensorFlow and Keras. The model is trained to classify images of plants into different disease categories based on the MobileNetV2 architecture.
+
+## Project Overview
+
+The project involves:
+- Loading and preprocessing plant images.
+- Defining and training a deep learning model using MobileNetV2.
+- Evaluating the model's performance and saving it for future use.
+
+## Directory Structure
+
+- `train2/`: Directory containing training images organized into subdirectories by plant disease categories.
+- `model.keras`: Saved Keras model after training.
+- `main.py`: Script to load data, train the model, and save it.
+
+## Requirements
+
+- TensorFlow 2.x
+- NumPy
+- Python 3.x
+
+To install the required Python packages, you can use:
+
+```bash
+pip install tensorflow numpy
+
+
 **Front End**:
 1.GUI for user-friendly interaction
 2.Image processing using CNN for symptom detection
 3.Disease identification and sustainable solutions
 
-**Technologies Used**:
-1.TensorFlow
-2.NLP and CNN
-3.MatPlot
-
-**Setup Instructions**:
-1.Integrate the technologies and datasets
 
 **Usage Instructions**:
 
@@ -57,10 +79,6 @@ TensorFlow is an open-source machine learning framework developed by Google. It 
 CNNs are a class of deep neural networks that are particularly effective for image processing tasks. They automatically and adaptively learn spatial hierarchies of features from input images.
 
 **Image Preprocessing**: Images are preprocessed and resized to fit the input dimensions required by the CNN model.
-
-**Natural Language Processing (NLP) Techniques:**
-
-NLP is used to analyze symptom descriptions provided by users. These textual descriptions help supplement the image data, providing a more comprehensive input for disease diagnosis.
 
 **Installation**: Popular NLP libraries include NLTK and spaCy.
 Text Processing: The symptom descriptions are tokenized, and relevant features are extracted.
